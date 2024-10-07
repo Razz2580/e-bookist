@@ -1,0 +1,88 @@
+const products = [
+  {
+    _id: "1",
+    name: "Zureni Bucket Quick Spin Mop",
+    image: "/images/mop_1.jpg",
+    description:
+      "EXTENDABLE MOP HANDLE: The mop handle is extendable with 360-degree movement, making it ideal for cleaning hard-to-reach places. It also offers multipurpose use and can clean liquid, oil, dust, and bacteria.",
+    brand: "Moppy",
+    category: "Cleaning",
+    price: 2299,
+    mrp: 3199,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    _id: "2",
+    name: "Raggle Flat Microfiber Magic Mop",
+    image: "/images/mop_2.jpg",
+    description:
+      "The dry and wet hands-free mop features a wringer that allows for quick cleaning, how EASY the self wringing mop can be? Just adjust the self-cleaning mop 30°with floor, automatic bounce back to close after housework, then slide the lever up and down, the built in wringer set would squeeze out the water, hairs.",
+    brand: "Raggle",
+    category: "Cleaning",
+    price: 1359,
+    mrp: 2299,
+    countInStock: 0,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    _id: "3",
+    name: "Spotzero by Milton Prime Spin Mop",
+    image: "/images/mop_3.jpg",
+    description:
+      "Material: Plastic; Package Content: 1 - Piece Prime Spin Mop; For any queries kindly reach customer care number as mentioned on the product packaging along with the proof of purchase.",
+    brand: "Milton",
+    category: "Cleaning",
+    price: 1200,
+    mrp: 2399,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    _id: "4",
+    name: "STE Stainless Steel Microfiber Floor Cleaning Spray Mop",
+    image: "/images/mop_4.jpg",
+    description:
+      "2 IN 1 Floor Cleaner Mop : comes with microfiber pad, no harm to floor, Safe to use on all floor types including wood, hardwood, vinyl, linoleum, cement, tile, laminate, stone and concrete floors, the window can also be used.",
+    brand: "Sony",
+    category: "Cleaning",
+    price: 3449,
+    mrp: 5499,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    _id: "5",
+    name: "Gala Chandra Deck Mop",
+    image: "/images/mop_5.jpg",
+    description:
+      "Refill made with special bleached cotton which has super water absorbency capacity and long life. Helps in easy cleaning",
+    brand: "Gala",
+    category: "Cleaning",
+    price: 649,
+    mrp: 1499,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    _id: "6",
+    name: "Gala Floor T-Mop",
+    image: "/images/mop_6.jpg",
+    description:
+      "Used for wet floor cleaning/mopping Removes tough stains without scratches. Quality Cotton Mop. Country of Origin: India",
+    brand: "Gala",
+    category: "Cleaning",
+    price: 369,
+    mrp: 849,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+];
+
+export default products;
